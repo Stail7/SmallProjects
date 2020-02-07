@@ -1,2 +1,2 @@
 # SmallProjects
-Collection Of Small Solutions
+Collection of textbook projects and exercises

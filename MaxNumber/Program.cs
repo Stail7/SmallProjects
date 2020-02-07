@@ -19,7 +19,7 @@ namespace Exercises
                 }
             }
 
-            Console.WriteLine("Maximum numbers is " + number);
+            Console.WriteLine("Maximum number is " + number);
         }
     }
 }
