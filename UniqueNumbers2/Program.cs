@@ -16,7 +16,7 @@ namespace UniqueNumbers2
             while (true)
             {
                 var input = Console.ReadLine();
-                if (input == "Quit" || input == "quit")
+                if (input.ToLower() == "quit")
                     break;
                 list.Add(Convert.ToInt32(input));
             }
