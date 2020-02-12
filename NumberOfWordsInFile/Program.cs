@@ -27,19 +27,7 @@ namespace NumberOfWordsInFile
                                              "\nDonec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. " +
                                              "\nIn enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. " +
                                              "\nNullam dictum felis eu pede mollis pretium. Integer tincidunt. " +
-                                             "\nCras dapibus. Vivamus elementum semper nisi. " +
-                                             "\nAenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, " +
-                                             "\nconsequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, " +
-                                             "\nviverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. " +
-                                             "\nQuisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. " +
-                                             "\nCurabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. " +
-                                             "\nMaecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, " +
-                                             "\nsit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, " +
-                                             "\nluctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. " +
-                                             "\nDonec vitae sapien ut libero venenatis faucibus. Nullam quis ante. " +
-                                             "\nEtiam sit amet orci eget eros faucibus tincidunt. Duis leo. " +
-                                             "\nSed fringilla mauris sit amet nibh. Donec sodales sagittis magna. " +
-                                             "\nSed consequat, leo eget bibendum sodales, augue velit cursus nunc");
+                                             "\nCras dapibus. Vivamus elementum semper nisi.");
 
             Console.WriteLine("File has {0} words.", WordsCount(filePath));
             Console.WriteLine("The longest words are: ");

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Text;
-
-namespace _Exercises
+﻿namespace _Exercises
 {
     class Program
     {
