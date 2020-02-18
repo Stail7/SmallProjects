@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeExamples", "DateTimeExamples\DateTimeExamples.csproj", "{9B1BA285-412C-4E32-9B05-E4D93AFC0786}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime", "DateTimeExamples\DateTime.csproj", "{9B1BA285-412C-4E32-9B05-E4D93AFC0786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoArray", "DemoArray\DemoArray.csproj", "{6B6518C7-17C3-4770-A867-A75ABC52DC5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "DemoArray\Array.csproj", "{6B6518C7-17C3-4770-A867-A75ABC52DC5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLists", "DemoLists\DemoLists.csproj", "{E9BEA15D-FC0C-4C62-AF92-21EF39865A9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "DemoLists\Lists.csproj", "{E9BEA15D-FC0C-4C62-AF92-21EF39865A9E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBLikesByName", "FBLikesByName\FBLikesByName.csproj", "{9CBAB68F-F109-46F8-866F-B9D37A1CAB27}"
 EndProject
@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestNumbers", "Smallest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorter", "Sorter\Sorter.csproj", "{A8E21165-00AE-4B29-B3AB-96674303A5AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSpanExemples", "TimeSpanExemp\TimeSpanExemples.csproj", "{3A7C5217-244E-4AAD-8C85-9495DBB817A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSpan", "TimeSpanExemp\TimeSpan.csproj", "{3A7C5217-244E-4AAD-8C85-9495DBB817A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueNumbers", "UniqueNumbers\UniqueNumbers.csproj", "{22CDA9F0-7DF5-4CCA-87A5-8DDC245FDE5A}"
 EndProject
@@ -31,11 +31,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Exercises", "_Exercises\_Exercises.csproj", "{DCD70B4C-E1C0-4D1F-9F76-15354022384C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStrings", "DemoStrings\DemoStrings.csproj", "{C05492AE-C4DF-4C3F-8ACC-25208332534D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "DemoStrings\Strings.csproj", "{C05492AE-C4DF-4C3F-8ACC-25208332534D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummarizeText", "SummarizeText\SummarizeText.csproj", "{A1D7C73A-2D90-478C-9A78-69AE353DEFDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStringBuilder", "DemoStringBuilder\DemoStringBuilder.csproj", "{EB6A76D7-4DC6-49C7-9920-02F997CB5A83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilder", "DemoStringBuilder\StringBuilder.csproj", "{EB6A76D7-4DC6-49C7-9920-02F997CB5A83}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StringsAndText", "StringsAndText", "{178917C3-CF41-4BB8-988E-3A6793B02C30}"
 EndProject
@@ -55,11 +55,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VowelsInEnglishWord", "Vowe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkingWithFiles", "WorkingWithFiles", "{65E4FDA6-6064-48E7-BBD6-67864FF7DB3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoFileAndFileInfo", "DemoFileAndFileInfo\DemoFileAndFileInfo.csproj", "{56111313-7CF5-44EC-9DE8-511ABF9725F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAndFileInfo", "DemoFileAndFileInfo\FileAndFileInfo.csproj", "{56111313-7CF5-44EC-9DE8-511ABF9725F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDirectoryAndDirectoryInfo", "DemoDirectoryAndDirectoryInfo\DemoDirectoryAndDirectoryInfo.csproj", "{47F967D8-B931-43FD-A628-87D499CD8E36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryAndDirectoryInfo", "DemoDirectoryAndDirectoryInfo\DirectoryAndDirectoryInfo.csproj", "{47F967D8-B931-43FD-A628-87D499CD8E36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoPathClass", "DemoPathClass\DemoPathClass.csproj", "{4246646A-0F02-455C-BB70-9252876BD0BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathClass", "DemoPathClass\PathClass.csproj", "{4246646A-0F02-455C-BB70-9252876BD0BF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{50C75EA9-946A-4FCB-8A78-E57327305554}"
 EndProject
@@ -67,15 +67,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfWordsInFile", "Numb
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classes", "Classes", "{4ABE96D1-9153-48A2-BF3C-FD046F4760B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoClasses", "DemoClasses\DemoClasses.csproj", "{2EB81313-ADFB-4B07-82BC-86BBE88D25DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "DemoClasses\Classes.csproj", "{2EB81313-ADFB-4B07-82BC-86BBE88D25DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMethodParams", "DemoMethodParams\DemoMethodParams.csproj", "{26E0EBCC-7AAE-4797-BDDE-300A0CE518AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodParams", "DemoMethodParams\MethodParams.csproj", "{26E0EBCC-7AAE-4797-BDDE-300A0CE518AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoFields", "DemoFields\DemoFields.csproj", "{E9968032-BF39-4B32-9EA6-E7187469A3FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fields", "DemoFields\Fields.csproj", "{E9968032-BF39-4B32-9EA6-E7187469A3FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{4E5410C3-AF8A-4F3D-B86B-463E16AEE83A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoIndexers", "DemoIndexers\DemoIndexers.csproj", "{A61F715D-D779-4D6A-AB41-37A17F4E990B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "DemoIndexers\Indexers.csproj", "{A61F715D-D779-4D6A-AB41-37A17F4E990B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{D41F17FC-0DC8-4EFB-A463-FC5B260E27BE}"
 EndProject
