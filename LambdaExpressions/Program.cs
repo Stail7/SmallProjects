@@ -15,7 +15,7 @@ namespace LambdaExpressions
             // x => ...
             // (x, y, z) => ...
 
-            //return from delegate
+            // return from delegate
             Func<int, int> square = number => number * number;
             Console.WriteLine(square(5));
 
@@ -23,14 +23,14 @@ namespace LambdaExpressions
             Func<int, int> multiplier = n => n * factor;
             Console.WriteLine(multiplier(10));
 
-            //return from local function
+            // return from local function
             int Square(int number) => number * number;
             Console.WriteLine(Square(5));
 
             int Add(int a, int b) => a + b;
             Console.WriteLine(Add(5, 5));
 
-            //BookRepository class example. Find books cheaper then 10
+            // BookRepository class example. Find books cheaper then 10
             // 1
             var books = new BookRepository().GetBooks();
             var cheapBooks1 = new List<Book>();
@@ -41,13 +41,13 @@ namespace LambdaExpressions
                 cheapBooks1.Add(book);
                 Console.WriteLine(book.Title);
             }
-            //2
+            // 2
             var cheapBooks2 = books.FindAll(IsCheaperThan10Dollars);
             foreach (var book in cheapBooks2)
             {
                 Console.WriteLine(book.Title);
             }
-            //3
+            // 3
             var cheapBooks3 = books.FindAll(book => book.Price < 10);
             foreach (var book in cheapBooks3)
             {
